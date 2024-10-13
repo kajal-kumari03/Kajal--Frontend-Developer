@@ -1,0 +1,67 @@
+.token{
+    width: 100vw;
+margin-top: -20px;
+padding-top: 170px;
+gap: 0px;
+opacity: 0px;
+background-color: #00161D;
+display: flex;
+gap:8vw;
+
+}
+.tt{
+    margin-left: 47vw;
+    
+}
+
+
+.piechart{
+    
+height: 385.06px;
+margin-top: 10vw;
+margin-left: 2vw;
+gap: 0px;
+border-radius: 16.97px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+
+
+.token-details-container {
+  background-color: rgba(0, 22, 29, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  width: 350px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 10vw;
+}
+
+.token-details-container h2 {
+  text-align: center;
+}
+
+.token-info, .token-distribution {
+  display: flex;
+  backdrop-filter: blur(15.699999809265137px);
+  background: #0C2B2FB2;
+  width: Hug (538px)px;
+  height: Hug (324px)px;
+  padding: 12px 56px 12px 56px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+  
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.token-info div, .token-distribution div {
+  display: flex;
+  flex-direction: column;
+}
+
+.token-info p, .token-distribution p {
+  margin: 5px 0;
+}

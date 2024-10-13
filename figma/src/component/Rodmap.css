@@ -1,0 +1,317 @@
+
+
+/* ------------------------Roadmaps------------------------------ */
+.roadmap {
+    width: 100vw;
+    height: 1692px;
+    padding: 64px 0px;
+    gap: 0px;
+    background-color: #00161D;
+    opacity: 1; /* Make sure it's visible */
+  }
+  .tt{
+   
+    margin-left: 2vw;
+  }
+  .h2{
+    margin-left: 47vw;
+    font-family: var(--fontfamilyFont1);
+    }
+  .roadmap1 {
+    width: 80%;
+    
+    gap: 0px;
+   
+    font-size: var(--fontsize40);
+   
+    line-height: var(--lineheight44);
+    letter-spacing: var(--letterspacing-08);
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1; /* Make sure it's visible */
+  }
+  
+  .kickingoff{
+    width: 100%;
+    height: 640px;
+    display: flex;
+  margin-top: 170px;
+    justify-content: space-around;
+    gap: 0px;
+    margin-left: 100px;
+    opacity: 1; /* Make sure it's visible */
+  }
+  
+  .kl,.fl {
+    width: 520px;
+    height: 512px;
+    margin-left: 100px;
+    justify-content: space-between;
+    opacity: 1; /* Make sure it's visible */
+  }
+  
+  .b1 {
+    width: 83px;
+    height: 37px;
+    border-radius: 4px;
+    font-family: 'Space Grotesk', sans-serif; /* Make sure to include this font in your project */
+    font-size: var(--itemspacing12);
+    font-weight: 500;
+    line-height: var(--fontsize16);
+    letter-spacing: var(--letterspacing019);
+    opacity: 1;
+    background: #ccc4c4;
+
+  }
+  
+  .kr,.fr {
+    width: 723px;
+    height: 723px;
+    margin-left: 100px;
+    margin-top: -100px;
+    
+  }
+  
+  .kv,.bv,.fv {
+    width: 512px;
+    height: 512px;
+    background: linear-gradient(
+      180deg,
+      #00161D 0%,
+      rgba(0, 22, 29, 0) 37.69%
+    ), linear-gradient(
+      180deg,
+      rgba(0, 22, 29, 0) 98.47%,
+      #00161D 100%
+    ), linear-gradient(
+      270deg,
+      rgba(0, 22, 29, 0) 82.85%,
+      #00161D 100%
+    );
+    border-radius: 10px;
+    filter: blur(.5px);
+  border-radius: 10px;
+    opacity: 0.8;
+    background-image: url('../assets/backgroudroadmap.png');
+    background-size: cover;
+  }
+
+
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+      color:#EFEFE8;
+    font-family: var(--fontfamilyFont1);
+font-size: var(--lineheight20);
+font-weight: 400;
+line-height: var(--lineheight26);
+letter-spacing: var(--letterspacing-01);
+text-align: left;
+width: 297px;
+height: 26px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  ul li::before {
+    content: '✔'; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #5C48EA;
+    font-weight: bold;
+  }
+  .biggerinsights {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -140px;
+    gap: 0px;
+    opacity: 1; /* Make sure it's visible */
+  }
+  .bl {
+    width: 723px;
+    height: 723px;
+  
+    margin-top: -100px;
+    
+  }
+  .br{
+    width: 534.66px;
+    height:304px;
+    gap: 48px;
+    opacity: 0px;
+    
+  }
+
+  .fullpower{
+    width:100vw;
+    height: 640px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    margin-left: 100px;
+    opacity: 1; 
+    
+  }
+
+  /* -----------------------------------------------faq--------------------------------------------------- */
+
+  .faq {
+    width: 100vw; 
+    height: 551px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px; /* Use a consistent gap */
+    opacity: 1;
+    background-color: #00161D; /* Add a dark background for better contrast */
+  }
+  .f1{
+    width: 82%;
+height: 551px;
+max-width: var(--width1200);
+padding: 100px 108px 120px 141px;
+gap: var(--itemspacing60);
+opacity: 0px;
+margin-left: 200px;
+  }
+  .ql {
+    width: 385px;
+height: Hug (128px)px;
+
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  .qh2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.08em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 300px;
+  }
+  .qr{
+    width:500px;
+    margin-left: 400px;
+   margin-top: -120px;
+  }
+  .qr ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .qr ul li {
+    margin-bottom: 20px; /* Space between list items */
+    position: relative;
+    padding-left: 30px; /* Space for the "+" icon */
+    color: #EFEFE8;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+  }
+  
+  .qr ul li::before {
+    content: '+'; /* Add the "+" icon */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #5C48EA; 
+    font-size: 24px;  
+  }
+
+  /* -----------------------------------------dApp----------------------------------------- */
+  .mind{
+    width: Fill (1,440px)px;
+    height: Hug (462px)px;
+    padding: 32px 240px  240px;
+    gap: 0px;
+    opacity: 0px;
+    background: #00161D;
+    margin-top: -9vw;
+  }
+  .inside{
+    width: Fill (960px)px;
+height: Hug (382px)px;
+max-width: var(--width960);
+padding: 56px 156px 56px 156px;
+gap: 30px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+background: #011C24;
+box-shadow: 0px 0px 32px 16px #63F2FF1A inset;
+
+  }
+  .dapp{
+   color: #62F0FE;
+ border: none;
+ 
+  }
+h3{
+    
+font-family: var(--fontfamilyFont1);
+font-size: var(--fontsize40);
+
+line-height: var(--lineheight44);
+letter-spacing: var(--letterspacing-08);
+text-align: center;
+
+}
+.para{
+    width: 703px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    
+font-family: var(--fontfamilyFont1);
+font-size: var(--fontsize16);
+font-weight: 400;
+line-height: var(--lineheight24);
+text-align: center;
+color: var(--color-cyan-8570, #B0FAFFB2);
+
+}
+.openbutton{
+    width: Fixed (139.71px)px;
+height: Hug (44px)px;
+
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+background: #CDFCFF;
+color:black;
+box-shadow: 0px 0px 1px 1px #4CDDFD inset;
+
+box-shadow: 0px 1px 1px 0px #4CDDFD inset;
+
+box-shadow: 0px 0px 4px 2px #FFFFFF1F inset;
+
+box-shadow: 0px -8px 16px -4px #37C5E599 inset;
+
+box-shadow: 0px 6px 20px 0px #37C5E51F;
+
+box-shadow: 0px 4px 12px 0px #37C5E51F;
+
+box-shadow: 0px 4px 6px 0px #37C5E51F;
+
+box-shadow: 0px 1px 4px 0px #37C5E51F;
+margin-left: 20vw;
+}
+  

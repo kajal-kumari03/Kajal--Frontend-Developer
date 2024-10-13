@@ -1,0 +1,170 @@
+.main{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-image: url('../assets/Canvas_mask-group.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.landingpage{
+    width: 45%;
+    height: 70%;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.font{
+    font-size: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    max-width: 680px !important;
+
+    span{
+        background: #B0F9FF;
+        color:  black;
+        border-radius: 56px;
+        padding:8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: var(--fontfamilyFont1);
+        font-size: var(--fontsize72);
+        font-weight: 500;
+        line-height: var(--lineheight76);
+        letter-spacing: var(--letterspacing-144);
+        text-align: center;
+
+    }
+}
+.txt{
+    color: #B0FAFFB2;
+    font-family: var(--fontfamilyFont1);
+    font-size: var(--fontsize20);
+    font-weight: 400;
+    line-height: var(--lineheight28);
+    text-align: center;
+
+}
+.m0{
+    margin: 0px;
+}
+.dapp{
+    box-shadow: 0px 0px 40px 0px #8BF9E833 inset;
+    backdrop-filter: blur(7.5px);
+    width: Hug (131px)px;
+    height: Hug (44px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px ;
+}
+.gradient{
+    background: linear-gradient(180deg, rgba(0, 22, 29, 0) 0%, #00161D 100%);
+    height: 16vh;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #00161D;
+}
+.About{
+    margin-top: 0px;
+    width: 100vw !important;
+    background-color: #00161D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    .About1{
+        width: 222px;
+        height: 44px;
+        top: 24px;
+        left: 608.53px;
+        font-family: var(--fontfamilyFont1);
+        font-size: 40px;
+        margin: 0px;
+        font-weight: 500;
+        line-height: var(--lineheight44);
+        letter-spacing: var(--letterspacing-08);
+        text-align: center;
+
+    }
+    .About2{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0px;
+
+        padding-top: 10px;
+    }
+    .abt-btn{
+        color: #0B2A2D;
+        width: Fixed (108.91px)px;
+        height: Hug (40px)px;
+        top: 172px;
+        margin-top: 30px;
+        left: 665.55px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 12px;
+        background: #CDFCFF;        
+        box-shadow: 0px 0px 1px 1px #4CDDFD inset;
+        box-shadow: 0px 1px 1px 0px #4CDCFC inset;
+        box-shadow: 0px 0px 4px 2px #FFFFFF1F inset;
+        box-shadow: 0px -8px 16px -4px #37C5E599 inset;
+        box-shadow: 0px 6px 20px 0px #37C5E51F;
+        box-shadow: 0px 4px 12px 0px #37C5E51F;
+        box-shadow: 0px 4px 6px 0px #37C5E51F;
+        box-shadow: 0px 1px 4px 0px #37C5E51F;
+
+    }
+    .About4{
+        height: 400px;
+        background: #08252A;
+        width: 744px;
+        border-radius: 20px;
+        margin-top: 30px;
+        display: flex;
+        padding-top: 20px;
+        justify-content: space-evenly;
+    }
+}
+.About41{
+    margin: 0px;
+    height: 100%;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        height: 48%;
+        width: 97%;
+    }
+
+}
+.About42{
+    margin: 0px;
+    height: 100%;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    div{
+        height: 48%;
+        width: 97%;
+    }
+}
