@@ -62,3 +62,40 @@
     border-radius: 12px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;  /* Stack navbar elements vertically */
+        justify-content: center;
+        height: auto;  /* Remove fixed height for flexible stacking */
+        gap: 20px;     /* Reduce gap between elements */
+        padding: 10px;
+    }
+
+    .navbar1 {
+        width: 90%;   /* Make the navbar wider for mobile view */
+        height: auto;
+        justify-content: space-between;  /* Ensure proper spacing */
+        padding: 10px 20px;  /* Add padding for better mobile spacing */
+    }
+
+    .navbar2 {
+        width: 90%;   /* Adjust width for mobile */
+        height: auto;
+        justify-content: space-around;  /* Evenly space the login and whitepaper */
+        gap: 10px;    /* Reduce gap between elements */
+    }
+
+    .fontmenu {
+        font-size: 14px;  /* Adjust font size for mobile readability */
+    }
+
+    .login {
+        font-size: 14px;  /* Adjust font size for mobile */
+    }
+
+    .whitepaper {
+        padding: 6px 15px;
+        font-size: 14px;   
+    }
+}

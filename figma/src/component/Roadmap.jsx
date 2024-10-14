@@ -1,7 +1,11 @@
 import React from 'react';
 import './Rodmap.css'; // Import your CSS for styling
 import Telegram from '../assets/telegram.png'
-import Instragram from '../assets/instagram.png'
+import Instragram from '../assets/instagram.png';
+import Edx from '../assets/edx.png'
+import Facebook from '../assets/f.png';
+import Logo from '../assets/logofooter.png';
+
 const Navbar = () => {
   return (
     <div>
@@ -52,6 +56,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className='fr'>
+           
             <video className='fv' src='https://s3-figma-videos-production-sig.figma.com/video/1304101392342992653/TEAM/86e0/aff1/-c5e4-4b3f-b0ee-214e16d683f4?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aOQHLlqT3DJileOvM3lAL2gABNJS4CR5akXA57rACCUr-PecfKVN9~FSgnpkC-M5~LhN6ntWFFWybnZk600HcOO7MQkm3B5VwXK6euAoo85AXvB6uVkzdzEBOEXQkicU4CyoPoGpEkS3XyFdYb5i~6~LE~zwan-Dg-pHy5oQ01jSUk37aKFq8FsAUexXVt2wph-1uiXcEgSvv3WQJF7JreLgh90uibzTkoilsFJ5v1i8D30zmXeyqJKY00kSsmrRRD86r3aqEfNHCGYfBgIXn2B7LaVd4MZj5Co5FNfuTcebvAhaMOkBMaybC80EfYjWVj7lE4NvHGI-1qtsoj7O0A__' />
           </div>
         </div>
@@ -89,21 +94,22 @@ const Navbar = () => {
 
       {/* -----------------------------------Footer Section----------------------------------- */}
       <div className='footer'>
-       <div>
-        <div className='logo'></div>
+       <div >
+        <div > <img className='logof' src={Logo}></img></div>
         <div className='social'>
-        <img src={Telegram} alt='telegram'></img>
-        <img src={Instragram} ></img>
-        
+        <img className='sm' src={Telegram} alt='telegram'></img>
+        <img className='sm' src={Instragram} ></img>
+        <img className='sm' src={Edx} ></img>
+        <img className='sm' src={Facebook} ></img>
         </div>
         </div>
         <div>
         <div className='text'>
-          <h3>"Designed for traders of today, just like you."</h3>
+          <h2 className='h3f'>"Designed for traders of today,<br></br> just like you."</h2>
         </div>
         <div>
-          <label>What's your work email?</label>
-          <button>Get Started</button>
+          <label >What's your work email?</label>
+          <button className='bf'>Get Started</button>
         </div>
         </div>
       </div>

@@ -119,7 +119,10 @@ width: 297px;
 height: 26px;
 gap: 0px;
 opacity: 0px;
-
+opacity: 0;
+transform: translateX(-20px);
+transition: all 0.5s ease-in-out;
+list-style-type: none;
   }
   
   ul li::before {
@@ -279,7 +282,8 @@ text-align: center;
     height: 120px;
     gap: 0px;
     opacity: 0px;
-    
+    background: var(--color-cyan-8570, #B0FAFFB2);
+
 font-family: var(--fontfamilyFont1);
 font-size: var(--fontsize16);
 font-weight: 400;
@@ -318,13 +322,290 @@ margin-left: 20vw;
 /* ---------------------------------footer-------------------------------- */
 .footer{
   width: Fill (1,440px)px;
-height: Hug (470px)px;
+height: Hug (570px)px;
 margin-top: -30px;
 gap: 0px;
 opacity: 0px;
 background: #010F14;
 display: flex;
+gap:40px;
+padding-bottom: 50px;
+justify-content: space-around;
+}
+.logof{
+  width: 108px;
+height: 42px;
+margin-top: 100px;
+gap: 16px;
+opacity: 0px;
+
 }
 .text{
   padding-top: 30px;
+}
+.social{
+  width: 319.2px;
+height: 44.8px;
+margin-top: 60px;
+gap: 23.8px;
+opacity: 0px;
+
+}
+.sm{
+  width: 22.4px;
+  height: 19.6px;
+  margin-left: 9.8px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+.bf{
+  box-shadow: 0px 0px 40px 0px #8BF9E833 inset;
+  background: #8BF9E803;
+  width: Hug (135px)px;
+  height: Hug (44px)px;
+  padding: 12px 24px 12px 24px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  
+backdrop-filter: blur(7.5px)
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .roadmap {
+    width: 100vw;
+    height: auto; /* Set height to auto for flexible content */
+    padding: 32px 0px; /* Adjust padding */
+    gap: 0px;
+    background-color: #00161D;
+    opacity: 1;
+  }
+
+  .h2 {
+    margin-left: 0; /* Center the heading */
+    text-align: center;
+    font-size: 24px; /* Smaller font for mobile */
+  }
+
+  .roadmap1 {
+    width: 90%; /* Use more screen space */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  .kickingoff {
+    flex-direction: column; /* Stack items vertically */
+    height: auto; /* Set height to auto */
+    margin-top: 50px; /* Adjust margin for mobile */
+    justify-content: center;
+  }
+
+  .kl, .fl, .kr, .fr {
+    width: 90%;
+    margin: 20px auto; /* Adjust margins for better spacing */
+    height: auto;
+    justify-content: center;
+  }
+
+  .kv, .bv, .fv {
+    width: 100%; /* Full width on mobile */
+    height: 300px; /* Smaller height */
+    border-radius: 10px;
+    opacity: 0.8;
+    background-size: cover;
+  }
+
+  ul {
+    font-size: 14px; /* Smaller font */
+  }
+
+  .biggerinsights, .fullpower {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  /* FAQ Section */
+  .faq {
+    padding: 30px 10px;
+    height: auto;
+    justify-content: center;
+  }
+
+  .ql, .qh2, .qr {
+    width: 90%;
+    margin: 0 auto; /* Center content */
+  }
+
+  .qh2 {
+    font-size: 24px;
+  }
+
+  .qr ul {
+    font-size: 14px;
+  }
+
+  /* DApp Section */
+  .mind {
+    padding: 20px 10px;
+    margin-top: -5vw;
+  }
+
+  .inside {
+    width: 100%;
+    padding: 30px 20px;
+    gap: 10px;
+    border-radius: 20px 0px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .para {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .openbutton {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .logof, .social, .bf {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .text {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+
+/* General Animation for list items */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* List items animation */
+.roadmap ul li {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Animated active state of list items */
+.roadmap ul li.active {
+  color: #f39c12;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Video/image sliding animations */
+.kv, .bv, .fv {
+  opacity: 0;
+  animation: slideInRight 1s ease forwards;
+}
+
+.kv {
+  animation-delay: 0.5s;
+}
+
+.bv {
+  animation-delay: 1s;
+}
+
+.fv {
+  animation-delay: 1.5s;
+}
+
+/* You can adjust the time and delay as needed */
+            
+
+
+
+
+
+
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+ul li {
+  animation: slideIn 1s forwards;
+}
+
+/* Change color when li is active */
+ul li.active {
+  color: #4caf50; /* Example: active li turns green */
+  font-weight: bold;
+}
+
+/* Add a sequential delay */
+ul li:nth-child(1) {
+  animation-delay: 0.5s;
+}
+ul li:nth-child(2) {
+  animation-delay: 1s;
+}
+ul li:nth-child(3) {
+  animation-delay: 1.5s;
+}
+ul li:nth-child(4) {
+  animation-delay: 2s;
+}
+ul li:nth-child(5) {
+  animation-delay: 2.5s;
 }
