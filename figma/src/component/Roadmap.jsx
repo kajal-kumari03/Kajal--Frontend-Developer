@@ -1,6 +1,7 @@
 import React from 'react';
 import './Rodmap.css'; // Import your CSS for styling
-
+import Telegram from '../assets/telegram.png'
+import Instragram from '../assets/instagram.png'
 const Navbar = () => {
   return (
     <div>
@@ -88,27 +89,22 @@ const Navbar = () => {
 
       {/* -----------------------------------Footer Section----------------------------------- */}
       <div className='footer'>
-        <div className='footlogo'></div>
+       <div>
+        <div className='logo'></div>
         <div className='social'>
-        <a href="https://instagram.com/your_instagram_handle" target="_blank">
-          <i className="fa fa-instagram"></i>
-        </a>
-        <a href="https://twitter.com/your_twitter_handle" target="_blank">
-          <i className="fa fa-twitter"></i>
-        </a>
-        <a href="https://facebook.com/your_facebook_handle" target="_blank">
-          <i className="fa fa-facebook"></i>
-        </a>
-        <a href="https://telegram.me/your_telegram_channel" target="_blank">
-          <i className="fa fa-telegram"></i>
-        </a>
+        <img src={Telegram} alt='telegram'></img>
+        <img src={Instragram} ></img>
+        
         </div>
+        </div>
+        <div>
         <div className='text'>
           <h3>"Designed for traders of today, just like you."</h3>
         </div>
         <div>
           <label>What's your work email?</label>
           <button>Get Started</button>
+        </div>
         </div>
       </div>
     </div>
